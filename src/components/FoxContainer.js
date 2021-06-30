@@ -1,6 +1,4 @@
 import Fox from './Fox'
-import './FoxContainer.css';
-
 const foxs = [
     {name:"Fox 1", image:"https://randomfox.ca/images/1.jpg", description:"I'm fox 1", isCool: true},
     {name:"Fox 2", image:"https://randomfox.ca/images/2.jpg", description:"I'm fox 2"},
@@ -14,13 +12,8 @@ const foxs = [
 ]
 
 const FoxContainer = () => {
-
     return (
-        <div className="fox-container">
-            {foxs.map((fox) => {
-                return <Fox name={fox.name} image={fox.image} description={fox.description} isCool={fox.isCool}/>
-            })}
-        </div>
+        <div className="fox-container"></div>
     )
 }
 
