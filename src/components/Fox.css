@@ -1,0 +1,39 @@
+.fox {
+    flex: 0 1 100%;
+    background-color: rgb(183, 190, 196);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px){
+    .fox {
+        flex: 0 1 28%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .fox {
+        flex: 0 1 46%;
+    }
+}
+
+.fox h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.fox img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.fox p {
+    text-align: center;
+    font-size: 1.2em;
+}
